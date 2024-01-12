@@ -1,0 +1,119 @@
+html {background-color: rgb(216, 233, 241)}
+#body {
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+rect {
+  fill: none;
+  pointer-events: all;
+}
+
+pre {
+  font-size: 18px;
+}
+
+line {
+  stroke: #0E0;
+  stroke-width: 1.5px;
+}
+
+.string, .regexp {
+  color: #f39;
+}
+
+.keyword {
+  color: #00c;
+}
+
+.comment {
+  color: #777;
+  font-style: oblique;
+}
+
+.number {
+  color: #369;
+}
+
+.class, .special {
+  color: #1181B8;
+}
+
+a:link, a:visited {
+  color: steelblue;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #666;
+}
+
+
+
+.node circle {
+  cursor: pointer;
+  fill: #fff;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+
+.node text {
+  font-size: 12px;
+}
+
+path.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 2.0px;
+}
+
+.button-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #eeeeee; 
+  text-decoration: none;
+  border: 2px solid rgba(0, 0, 0, 0.616);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-link:hover {
+border: 2px solid steelblue; 
+}
+
+form {
+max-width: 400px;
+margin: 0 auto;
+}
+
+label {
+display: block;
+margin-bottom: 8px;
+}
+
+input,
+button {
+width: 100%;
+padding: 10px;
+margin-bottom: 12px;
+box-sizing: border-box;
+
+}
+
+button {
+cursor: pointer;
+background-color: #eeeeee; 
+text-decoration: none;
+border: 2px solid rgba(0, 0, 0, 0.616);
+border-radius: 5px;
+color: steelblue;
+}
+
+button:hover {
+border: 2px solid steelblue;
+color: #777;
+}
+.header {
+text-align: center;
+}
